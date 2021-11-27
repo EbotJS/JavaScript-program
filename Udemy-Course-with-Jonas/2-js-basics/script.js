@@ -346,6 +346,7 @@ console.log(isDesigner);
 
 // JONAS' SOLUTION
 
+/*
 function tipCalculator(bill) {
     var percentage;
     if(bill < 50) {
@@ -369,3 +370,33 @@ var finalValues = [bills[0] + tips[0],
 
 
 console.log(tips, finalValues);
+
+*/
+
+/************************************
+ * Vid 025 Objects and Properties
+ */
+
+// Object literal
+var john = {
+    firstName: 'John',
+    lastName: 'Smith',
+    birthYear: 1990,
+    family: ['Jane', 'Mark', 'Bob', 'Emily'],
+    job: 'teacher',
+    isMarried: false
+};
+console.log(john['lastName']);
+var x = 'birthYear';
+console.log(john[x]);
+
+john.job = 'designer';
+john['isMarried'] = true;
+console.log(john);
+
+// new object syntax
+var jane = new Object();
+jane.name = 'Jane';
+jane.birthYear = 1969;
+jane['lastName'] = 'Smith';
+console.log(jane);
