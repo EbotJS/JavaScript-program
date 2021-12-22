@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+
+:root{
+    font-family: var(--ff);
+    --bg-color: #f1f5f8;
+    --main-text-bg-color: rgb(17, 16, 16);
+    --span: rgb(15, 207, 207);
+    --nav-bar-bg: white;
+    --nav-shadow: grey;
+
+    --ff: Poppins;
+    --fw-light: 300;
+    --fw-regular:400;
+    --fw-bold: 600;
+    font-weight: var(--fw-regular);
+}
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body *, body *::before, body *::after{
+    display: block;
+}
+
+
+Body {
+    background-color: var(--bg-color);
+}
+
+.color-flipper{
+    color:var(--span);
+    font-weight: var(--fw-regular);
+}
+
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+
+nav{
+    padding: 0.5rem;
+    display: grid;
+    place-items: center;
+    background-color: var(--nav-bar-bg);
+    box-shadow: 0 0 0.5rem var(--nav-shadow);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-text-bg-color);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+
+
+.container{
+    text-align: center;
+    margin-block-start: 15rem;
+    background-color: var(--main-text-bg-color);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.container-text{
+    color: var(--nav-bar-bg);
+}
+
+.color{
+    color: var(--span);
+}
+
+button{
+    padding: 0.3rem;
+    font-weight: var(--fw-bold);
+    font-family: var(--ff);
+    width: 7rem;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    border-color: var(--main-text-bg-color);
+    color: var(--main-text-bg-color);
+    background-color: var(--bg-color);
+    
+}
+
