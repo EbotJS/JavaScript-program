@@ -86,6 +86,7 @@ main{
 
 .color{
     color: var(--span);
+    
 }
 
 button{
@@ -101,3 +102,20 @@ button{
     
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: var(--nav-bar-bg);
+}
+
+@media (min-width: 600px){
+    .color{
+        display: inline-block;
+    }
+
+    .container{
+        width: min(25rem, 100%);
+        padding: 0.5rem;
+    }
+
+
+}
