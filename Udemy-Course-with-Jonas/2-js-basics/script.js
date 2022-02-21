@@ -378,25 +378,61 @@ console.log(tips, finalValues);
  */
 
 // Object literal
-var john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    birthYear: 1990,
-    family: ['Jane', 'Mark', 'Bob', 'Emily'],
-    job: 'teacher',
-    isMarried: false
-};
-console.log(john['lastName']);
-var x = 'birthYear';
-console.log(john[x]);
 
-john.job = 'designer';
-john['isMarried'] = true;
-console.log(john);
+// var john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1990,
+//     family: ['Jane', 'Mark', 'Bob', 'Emily'],
+//     job: 'teacher',
+//     isMarried: false
+// };
+// console.log(john.family);
+// console.log(john['lastName'])
+// var x = 'birthYear';
+// console.log(john[x]);
 
-// new object syntax
-var jane = new Object();
-jane.name = 'Jane';
-jane.birthYear = 1969;
-jane['lastName'] = 'Smith';
-console.log(jane);
+// john.bestMeal = 'rice and beans';
+// john['isMarried']= true;
+
+// console.log(john);
+
+// new object synax
+// var ebot = new Object();
+
+// ebot.firstName = 'Achale';
+// ebot['middleName'] = 'Ebot'
+// ebot.lastName = 'Oma';
+// ebot.gitHubName = 'EbotProg';
+// ebot.school = 'University of Buea';
+
+// console.log(ebot);
+
+
+
+/**********************************
+ * vid 026 Objexts and methods
+ */
+
+// var ebot = {
+//      firstName : 'Achale',
+//      lastName : 'Oma',
+//      birthYear : 2001,
+//      family : ['Ebob', 'Nkongho', 'Egbe',
+//                'Manyi', 'Oj', 'Etta'],
+//      job : 'student',
+//      isMarried : false,
+//      calcAge : function () {
+//          this.age = 2022 - this.birthYear;
+//      }          
+// };
+
+// ebot.calcAge();
+
+// console.log(ebot);
+
+
+
+/*************************
+ * vid 029 Loops and Iterations
+ */
