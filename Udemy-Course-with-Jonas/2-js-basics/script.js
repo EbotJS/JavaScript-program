@@ -411,7 +411,7 @@ console.log(tips, finalValues);
 
 
 /**********************************
- * vid 026 Objexts and methods
+ * vid 026 Objects and methods
  */
 
 // var ebot = {
