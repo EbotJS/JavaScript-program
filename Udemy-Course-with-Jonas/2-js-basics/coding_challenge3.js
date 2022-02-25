@@ -66,7 +66,8 @@
  * THIS IS MY UPDATED PROGRAM(This is my solution from my own point of view)
  */
 
-var bills = [124, 48, 268];
+var bills = [124, 48, 268, 180, 42];
+billLength = bills.length;
 
 function simpleTipCalculator(bill){
 
@@ -74,7 +75,7 @@ var finalPaidBill = [];
 var finalTips = [];
 var tip = [];
 
-    for(let i=0; i<3; i++){
+    for(let i=0; i< billLength; i++){
 
         if(bill[i] < 50){
 

@@ -436,3 +436,74 @@ console.log(tips, finalValues);
 /*************************
  * vid 029 Loops and Iterations
  */
+
+// for loop
+// for(let i=1; i <= 20; i+=2) {
+//     console.log(i);
+// }
+
+// var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+// johnlength = john.length;
+
+// for(let i= 0; i < johnlength; i++) {
+//     console.log(john[i]);
+// }
+
+// // while loop
+// let i = 0; 
+// while(i < johnlength){
+//     console.log(john[i]);
+//     i++;
+// }
+
+// continue and break statements
+
+// var john = ['John', 'Smith', 1990, 'designer', false, 'blue'];
+// johnlength = john.length;
+
+//continue
+
+// you can use this,
+
+// for(let i= 0; i < johnlength; i++) {
+//     if(typeof john[i] === 'string'){
+//         console.log(john[i]);
+//         } else{
+//               continue;              
+//             }
+// }
+   
+// OR this
+
+// for(let i = 0; i < johnlength; i++){
+//     if(typeof john[i] !== 'string') continue;
+//     console.log(john[i]);
+// }
+
+//break
+// for(let i = 0; i < johnlength; i++){
+//     if(typeof john[i] !== 'string') break;
+//     console.log(john[i]);
+// }
+
+//loop through the john array the other way round
+
+// for(let i = johnlength-1; i >= 0; i--){
+//     console.log(john[i]);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
